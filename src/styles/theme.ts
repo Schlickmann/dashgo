@@ -27,6 +27,6 @@ const customTheme = {
       },
     },
   },
-} as unknown as Theme;
+} as Theme | {};
 
 export const theme = extendTheme(customTheme);
